@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 50%;
+    border: 1px solid blue;
+    padding: 16px;
+}
+
+.form-name {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.product-name, .product-quantity, .product-price {
+    padding: 0 34px;
+    height: 40px;
+    margin-bottom: 16px;
+}
+
+.product-name p, .product-quantity p, .product-price p {
+    line-height: 40px;
+    display: inline;
+}
+
+.input-name, .input-qty, .input-pri {
+    width: 74%;
+    float: right;
+    height: 40px;
+}
+
+.btn {
+    padding-left: 34px;
+    margin-bottom: 16px;
+
+}
+
+#add-btn {
+    height: 36px;
+    width: 60px;
+    background-color: black;
+    color: #fff;
+}
+
+#table {
+    padding: 0 34px;
+    border-spacing: 0;
+}
+
+.table-head {
+    background-color: black;
+    color: #fff;
+}
+
+.table-head tr th {
+    height: 34px;
+    width: 100px;
+    text-align: center;
+}
+
+#t-body td {
+    text-align: center;
+}
+
+#t-foot {
+    border-top: 1px solid #ddd;
+}
+
+#t-foot td:last-child {
+    text-align: center;
+}

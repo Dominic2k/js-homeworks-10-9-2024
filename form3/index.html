@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Input 3</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="form-name">
+            <h1>Clothes</h1>
+        </div>
+        <form action="">
+            <div class="product-name">
+                <label for="">
+                    <p>Product Name</p>
+                    <input class="input-name" type="text" id="pro-name">
+                </label>
+            </div>
+            <div class="clear"></div>
+            <div class="product-quantity">
+                <label for="">
+                    <p>Product Quantity</p>
+                    <input class="input-qty" type="number" id="pro-qty">
+                </label>
+            </div>
+            <div class="clear"></div>
+            <div class="product-price">
+                <label for="">
+                    <p>Product Price</p>
+                    <input class="input-pri" type="text" id="pro-pri">
+                </label>
+            </div>
+            <div class="clear"></div>
+            <div class="btn">
+                <button type="button" id="add-btn" onclick="addProcess()">Add</button>
+            </div>
+        </form>
+        <table id="table">
+            <thead class="table-head">
+                <th>No</th>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>SubTotal</th>
+            </thead>
+            <tbody id="t-body">
+            </tbody>
+            <tfoot id="t-foot">
+                <tr>
+                    <td colspan="4">Total</td>
+                    <td id="total">0</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>
