@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <script src="scriptS.js"></script>
+    <title>Form Input 2</title>
+</head>
+<body>
+    <h1 class="new-product">New Product</h1>
+    <hr>
+    <form action="" name="form">
+        <div class="pro-name-qty-price">
+            <div class="product-name">
+                <label for="">
+                    Product Name:
+                    <input type="text" name="product-name" id="product-name">
+                </label>
+            </div>
+            <div class="product-qty">
+                <label for="">
+                    Product Quanlity: 
+                    <input type="text" name="product-qty" id="product-qty">
+                </label>
+            </div>
+            <div class="product-price">
+                <label for="">
+                    Product Price:
+                    <input type="text" name="product-price" id="product-price">
+                </label>
+            </div>
+            <div class="product-btn">
+                <button class="btn" onclick="Process()" type="button">ADD</button>
+            </div>
+        </div>
+    </form>
+    <table id="table" border="1">
+        <thead>
+            <th>No</th>
+            <th>Name</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Sub-Total</th>
+        </thead>
+        <tbody id="t-body">
+        </tbody>
+        <tfoot id="t-foot">
+            <tr>
+                <td colspan="4">Total</td>
+                <td id="total">0</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
