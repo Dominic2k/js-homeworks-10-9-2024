@@ -1,11 +1,11 @@
 var id = 0;
 var total = 0;
-function Process() {
-    
+function addProcess() {
+
     id++;
-    var productName = document.getElementById("product-name").value;
-    var productQty = document.getElementById("product-qty").value;
-    var productPrice = document.getElementById("product-price").value;
+    var productName = document.getElementById("pro-name").value;
+    var productQty = document.getElementById("pro-qty").value;
+    var productPrice = document.getElementById("pro-pri").value;
     var subTotal = productQty * productPrice;
     total += subTotal;
 
