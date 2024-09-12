@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#table {
+    width: 600px;
+    border-spacing: 0;
+    border: 1px solid #bbb;
+    margin-top: 16px;
+}
+
+#table tr {
+    height: 27px;
+}
+
+#table tr th, #table tr td {
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+#table tr:last-child td {
+    border: none;
+}
+
+.new-product {
+    font-size: 46px;
+    padding: 16px;
+}
+
+.pro-name-qty, .pro-price-discount, .btn {
+    padding-top: 16px;
+}
+
+.btn {
+    margin-left: 136px;
+}
+
+.btn-sell, .btn-cancel {
+    width: 70px;
+    height: 32px;
+}
